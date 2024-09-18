@@ -1,0 +1,30 @@
+{
+	"name": "rabbitMq/Nodejs",
+	"version": "1",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "cross-env NODE_ENV=development nodemon",
+		"pro": "cross-env NODE_ENV=production nodemon"
+	},
+	"author": "naeimsafaee.dev",
+	"private": true,
+	"dependencies": {
+		"amqplib": "^0.8.0",
+		"config": "^3.3.6",
+		"cors": "^2.8.5",
+		"cron": "^1.8.2",
+		"cross-env": "^7.0.3",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-async-errors": "^3.1.1",
+		"ws": "^8.2.0"
+	},
+	"devDependencies": {
+		"husky": "^7.0.0",
+		"jest": "^27.3.1",
+		"prettier": "2.4.1",
+		"pretty-quick": "^3.1.1"
+	}
+}

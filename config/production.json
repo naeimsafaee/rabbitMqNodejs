@@ -1,0 +1,7 @@
+{
+	"databases": {
+		"rabbitmq": {
+			"url": "amqp://root:bFunufNwEV3aVKx2Wf3k@remote.runflare.com:31852"
+		}
+	}
+}
